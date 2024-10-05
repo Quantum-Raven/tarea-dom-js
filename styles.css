@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(130, 130, 130); 
+}
+
+.contenedor {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.control {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
